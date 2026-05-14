@@ -1,0 +1,28 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="160" height="160" fill="white"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 140 35)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 20 0)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 150 130)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 150 80)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 60 70)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 60 0)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 100 140)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 60 140)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 20 140)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 100 70)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 100 0)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 20 70)" fill="#FF3926"/>
+<path d="M10 10H95C114.33 10 130 25.67 130 45C130 64.33 114.33 80 95 80H10V10Z" stroke="black"/>
+<path d="M10 80H115C134.33 80 150 95.67 150 115C150 134.33 134.33 150 115 150H10V80Z" stroke="black"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 80 70)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 80 0)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 120 140)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 80 140)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 40 140)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 20 35)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 20 105)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 40 70)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 40 0)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 120 70)" fill="#FF3926"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 160 105)" fill="#FF3926"/>
+</svg>

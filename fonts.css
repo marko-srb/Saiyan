@@ -1,0 +1,240 @@
+/* ============================================================
+   Saiyan project — brand typography
+   Each @font-face declares a font-family + weight that the
+   visual engine can use for text effects under that brand.
+============================================================ */
+
+/* ---------- Inter (used across all brands as a system fallback) ---------- */
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/inter/Inter.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/inter/Inter-Italic.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---------- Source Serif (Automattic) ---------- */
+@font-face {
+  font-family: 'Source Serif';
+  src: url('./fonts/source-serif/SourceSerif4.ttf') format('truetype-variations');
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Source Serif';
+  src: url('./fonts/source-serif/SourceSerif4-Italic.ttf') format('truetype-variations');
+  font-weight: 200 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---------- EB Garamond (WordPress.org) ---------- */
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('./fonts/eb-garamond/EBGaramond.ttf') format('truetype-variations');
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('./fonts/eb-garamond/EBGaramond-Italic.ttf') format('truetype-variations');
+  font-weight: 400 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---------- Proxima Nova (Woo) ---------- */
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./fonts/proxima-nova/ProximaNova-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./fonts/proxima-nova/ProximaNova-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./fonts/proxima-nova/ProximaNova-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./fonts/proxima-nova/ProximaNova-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./fonts/proxima-nova/ProximaNova-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- Aktiv Grotesk (WordPress VIP) ---------- */
+@font-face {
+  font-family: 'Aktiv Grotesk';
+  src: url('./fonts/aktiv-grotesk/AktivGrotesk-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aktiv Grotesk';
+  src: url('./fonts/aktiv-grotesk/AktivGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aktiv Grotesk';
+  src: url('./fonts/aktiv-grotesk/AktivGrotesk-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aktiv Grotesk';
+  src: url('./fonts/aktiv-grotesk/AktivGrotesk-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- Knockout (Automattic) ----------
+   Hoefler's Knockout family is a series of independent display widths,
+   each numbered (49, 50, 52, 70, 72). We expose the most useful ones
+   as separate font-families to preserve their distinct character. */
+@font-face {
+  font-family: 'Knockout 49';
+  src: url('./fonts/knockout/Knockout-49-Liteweight.otf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Knockout 50';
+  src: url('./fonts/knockout/Knockout-50-Welterweight.otf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Knockout 52';
+  src: url('./fonts/knockout/Knockout-52-Cruiserweight.otf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Knockout 70';
+  src: url('./fonts/knockout/Knockout-70-FullWelterweight.otf') format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Knockout 72';
+  src: url('./fonts/knockout/Knockout-72-FullCruiserweight.otf') format('opentype');
+  font-display: swap;
+}
+/* Generic alias — defaults to Welterweight (50) */
+@font-face {
+  font-family: 'Knockout';
+  src: url('./fonts/knockout/Knockout-50-Welterweight.otf') format('opentype');
+  font-display: swap;
+}
+
+/* ---------- Söhne Breit (Jetpack) ----------
+   Klim's wide display sans, three weights mapped onto regular/semibold/bold. */
+@font-face {
+  font-family: 'Söhne Breit';
+  src: url('./fonts/sohne-breit/SohneBreit-Buch.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Söhne Breit';
+  src: url('./fonts/sohne-breit/SohneBreit-Dreiviertelfett.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Söhne Breit';
+  src: url('./fonts/sohne-breit/SohneBreit-Extrafett.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- Recoleta (WordPress.com) ---------- */
+@font-face {
+  font-family: 'Recoleta';
+  src: url('./fonts/recoleta/Recoleta-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Recoleta';
+  src: url('./fonts/recoleta/Recoleta-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Recoleta';
+  src: url('./fonts/recoleta/Recoleta-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Recoleta';
+  src: url('./fonts/recoleta/Recoleta-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Recoleta';
+  src: url('./fonts/recoleta/Recoleta-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- DM Mono (WordPress.com — note: zip contained DM Mono, not DM Sans) ---------- */
+@font-face {
+  font-family: 'DM Mono';
+  src: url('./fonts/dm-mono/DMMono-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DM Mono';
+  src: url('./fonts/dm-mono/DMMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DM Mono';
+  src: url('./fonts/dm-mono/DMMono-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
